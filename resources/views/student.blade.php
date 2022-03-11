@@ -11,6 +11,7 @@
     <h1>This is STudent Page</h1>
 
     @foreach ($students as $stu)
+    {{$stu->id}}
     {{$stu->name}}
     {{$stu->email}}
     {{$stu->city}}
